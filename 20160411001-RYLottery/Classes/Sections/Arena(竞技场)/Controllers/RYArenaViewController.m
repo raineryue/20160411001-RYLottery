@@ -85,7 +85,7 @@
 
 - (void)buttonClickAtion:(UIButton *)button {
     UIViewController *viewController = [[UIViewController alloc] init];
-//    viewController.view.backgroundColor = [UIColor redColor];
+    viewController.view.backgroundColor = [UIColor whiteColor];
     
     [self.navigationController pushViewController:viewController animated:YES];
 }
