@@ -7,10 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5F2D0CA1CBB752B00FBD289 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F2D0C91CBB752B00FBD289 /* main.m */; };
-		D5F2D0CD1CBB752B00FBD289 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F2D0CC1CBB752B00FBD289 /* AppDelegate.m */; };
-		D5F2D0D01CBB752B00FBD289 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F2D0CF1CBB752B00FBD289 /* ViewController.m */; };
-		D5F2D0D31CBB752B00FBD289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F2D0D11CBB752B00FBD289 /* Main.storyboard */; };
+		D5196A161CC3CB9800D781E7 /* RYPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5196A151CC3CB9800D781E7 /* RYPopMenuView.m */; };
+		D5196A191CC3CC6800D781E7 /* RYPopMenuItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5196A181CC3CC6800D781E7 /* RYPopMenuItemModel.m */; };
+		D59D2F841CC5BD0800BD186B /* RYDivideLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D2F831CC5BD0800BD186B /* RYDivideLineView.m */; };
+		D59D2F8D1CC60DFC00BD186B /* RYArenaNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D2F8C1CC60DFC00BD186B /* RYArenaNavigationController.m */; };
+		D59D2F8F1CC61CC200BD186B /* RYDiscoverTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D2F8E1CC61CC200BD186B /* RYDiscoverTableViewController.storyboard */; };
+		D59D2F921CC625F000BD186B /* RYGroupBuyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D2F911CC625F000BD186B /* RYGroupBuyTableViewController.m */; };
+		D59D2F981CC627F500BD186B /* RYTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D2F971CC627F500BD186B /* RYTitleButton.m */; };
+		D59D2F9B1CC6351300BD186B /* RYLuckyNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D2F9A1CC6351300BD186B /* RYLuckyNumberView.m */; };
+		D59D2F9E1CC6369400BD186B /* RYLuckyNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D2F9D1CC6369400BD186B /* RYLuckyNumberViewController.m */; };
+		D59D8F461CC7BF8400E21CAA /* RYSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D8F451CC7BF8400E21CAA /* RYSettingTableViewController.m */; };
+		D5A6DAB41CC677B500B99FB4 /* RYMyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A6DAB21CC677B500B99FB4 /* RYMyLotteryViewController.m */; };
+		D5A6DAB51CC677B500B99FB4 /* RYMyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5A6DAB31CC677B500B99FB4 /* RYMyLotteryViewController.xib */; };
+		D5B9076A1CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B907691CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.m */; };
+		D5B9076D1CC72A88000A55D0 /* RYBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B9076C1CC72A88000A55D0 /* RYBaseCollectionViewController.m */; };
+		D5B907701CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B9076F1CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.m */; };
+		D5B907731CC78B8B000A55D0 /* RYSaveDataLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B907721CC78B8B000A55D0 /* RYSaveDataLocationUtil.m */; };
+		D5B907761CC78C8C000A55D0 /* RYChoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B907751CC78C8C000A55D0 /* RYChoseViewController.m */; };
+		D5BFFE601CC0DF6500D0F986 /* RYCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFFE5F1CC0DF6500D0F986 /* RYCoverView.m */; };
+		D5BFFE641CC0E1F800D0F986 /* RYContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFFE631CC0E1F800D0F986 /* RYContentView.m */; };
+		D5F1BB571CBDEDDB00A270DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB341CBDEDDB00A270DC /* AppDelegate.m */; };
+		D5F1BB591CBDEDDB00A270DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB361CBDEDDB00A270DC /* main.m */; };
+		D5F1BB5B1CBDEE9D00A270DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F1BB5A1CBDEE9D00A270DC /* Info.plist */; };
+		D5F1BB5E1CBDEF5F00A270DC /* RYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB5D1CBDEF5F00A270DC /* RYBaseViewController.m */; };
+		D5F1BB611CBDEF8800A270DC /* RYBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB601CBDEF8800A270DC /* RYBaseTableViewController.m */; };
+		D5F1BB641CBDF03600A270DC /* RYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB631CBDF03600A270DC /* RYTabBarController.m */; };
+		D5F1BB671CBDF06400A270DC /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB661CBDF06400A270DC /* RYNavigationController.m */; };
+		D5F1BB6D1CBDF0B800A270DC /* RYArenaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB6C1CBDF0B800A270DC /* RYArenaViewController.m */; };
+		D5F1BB731CBDF11100A270DC /* RYDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB721CBDF11100A270DC /* RYDiscoverTableViewController.m */; };
+		D5F1BB761CBDF12800A270DC /* RYHallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB751CBDF12800A270DC /* RYHallTableViewController.m */; };
+		D5F1BB791CBDF13A00A270DC /* RYHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB781CBDF13A00A270DC /* RYHistoryTableViewController.m */; };
+		D5F1BB7C1CBE0D2500A270DC /* RYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB7B1CBE0D2500A270DC /* RYTabBar.m */; };
+		D5F1BB7F1CBE267700A270DC /* RYBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB7E1CBE267700A270DC /* RYBarButton.m */; };
+		D5F1BB821CBE4D7100A270DC /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB811CBE4D7100A270DC /* UIImage+Utils.m */; };
+		D5F1BB861CBE5CE500A270DC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB851CBE5CE500A270DC /* UIView+Frame.m */; };
 		D5F2D0D51CBB752B00FBD289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F2D0D41CBB752B00FBD289 /* Assets.xcassets */; };
 		D5F2D0D81CBB752B00FBD289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F2D0D61CBB752B00FBD289 /* LaunchScreen.storyboard */; };
 		D5F2D0E31CBB752B00FBD289 /* _0160411001_RYLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F2D0E21CBB752B00FBD289 /* _0160411001_RYLotteryTests.m */; };
@@ -35,16 +65,75 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5196A141CC3CB9800D781E7 /* RYPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYPopMenuView.h; sourceTree = "<group>"; };
+		D5196A151CC3CB9800D781E7 /* RYPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYPopMenuView.m; sourceTree = "<group>"; };
+		D5196A171CC3CC6800D781E7 /* RYPopMenuItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYPopMenuItemModel.h; sourceTree = "<group>"; };
+		D5196A181CC3CC6800D781E7 /* RYPopMenuItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYPopMenuItemModel.m; sourceTree = "<group>"; };
+		D59D2F821CC5BD0800BD186B /* RYDivideLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYDivideLineView.h; sourceTree = "<group>"; };
+		D59D2F831CC5BD0800BD186B /* RYDivideLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYDivideLineView.m; sourceTree = "<group>"; };
+		D59D2F8B1CC60DFC00BD186B /* RYArenaNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYArenaNavigationController.h; sourceTree = "<group>"; };
+		D59D2F8C1CC60DFC00BD186B /* RYArenaNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYArenaNavigationController.m; sourceTree = "<group>"; };
+		D59D2F8E1CC61CC200BD186B /* RYDiscoverTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RYDiscoverTableViewController.storyboard; sourceTree = "<group>"; };
+		D59D2F901CC625F000BD186B /* RYGroupBuyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYGroupBuyTableViewController.h; sourceTree = "<group>"; };
+		D59D2F911CC625F000BD186B /* RYGroupBuyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYGroupBuyTableViewController.m; sourceTree = "<group>"; };
+		D59D2F961CC627F500BD186B /* RYTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTitleButton.h; sourceTree = "<group>"; };
+		D59D2F971CC627F500BD186B /* RYTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTitleButton.m; sourceTree = "<group>"; };
+		D59D2F991CC6351300BD186B /* RYLuckyNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLuckyNumberView.h; sourceTree = "<group>"; };
+		D59D2F9A1CC6351300BD186B /* RYLuckyNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLuckyNumberView.m; sourceTree = "<group>"; };
+		D59D2F9C1CC6369400BD186B /* RYLuckyNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLuckyNumberViewController.h; sourceTree = "<group>"; };
+		D59D2F9D1CC6369400BD186B /* RYLuckyNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLuckyNumberViewController.m; sourceTree = "<group>"; };
+		D59D8F441CC7BF8400E21CAA /* RYSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSettingTableViewController.h; sourceTree = "<group>"; };
+		D59D8F451CC7BF8400E21CAA /* RYSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSettingTableViewController.m; sourceTree = "<group>"; };
+		D5A6DAB11CC677B500B99FB4 /* RYMyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYMyLotteryViewController.h; sourceTree = "<group>"; };
+		D5A6DAB21CC677B500B99FB4 /* RYMyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYMyLotteryViewController.m; sourceTree = "<group>"; };
+		D5A6DAB31CC677B500B99FB4 /* RYMyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RYMyLotteryViewController.xib; sourceTree = "<group>"; };
+		D5B907681CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewFeatureCollectionViewController.h; sourceTree = "<group>"; };
+		D5B907691CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewFeatureCollectionViewController.m; sourceTree = "<group>"; };
+		D5B9076B1CC72A88000A55D0 /* RYBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBaseCollectionViewController.h; sourceTree = "<group>"; };
+		D5B9076C1CC72A88000A55D0 /* RYBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBaseCollectionViewController.m; sourceTree = "<group>"; };
+		D5B9076E1CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		D5B9076F1CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		D5B907711CC78B8B000A55D0 /* RYSaveDataLocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSaveDataLocationUtil.h; sourceTree = "<group>"; };
+		D5B907721CC78B8B000A55D0 /* RYSaveDataLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSaveDataLocationUtil.m; sourceTree = "<group>"; };
+		D5B907741CC78C8C000A55D0 /* RYChoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChoseViewController.h; sourceTree = "<group>"; };
+		D5B907751CC78C8C000A55D0 /* RYChoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChoseViewController.m; sourceTree = "<group>"; };
+		D5BFFE5E1CC0DF6500D0F986 /* RYCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCoverView.h; sourceTree = "<group>"; };
+		D5BFFE5F1CC0DF6500D0F986 /* RYCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCoverView.m; sourceTree = "<group>"; };
+		D5BFFE611CC0E05100D0F986 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		D5BFFE621CC0E1F800D0F986 /* RYContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYContentView.h; sourceTree = "<group>"; };
+		D5BFFE631CC0E1F800D0F986 /* RYContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYContentView.m; sourceTree = "<group>"; };
+		D5F1BB331CBDEDDB00A270DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5F1BB341CBDEDDB00A270DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5F1BB361CBDEDDB00A270DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F1BB5A1CBDEE9D00A270DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F1BB5C1CBDEF5F00A270DC /* RYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBaseViewController.h; sourceTree = "<group>"; };
+		D5F1BB5D1CBDEF5F00A270DC /* RYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBaseViewController.m; sourceTree = "<group>"; };
+		D5F1BB5F1CBDEF8800A270DC /* RYBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBaseTableViewController.h; sourceTree = "<group>"; };
+		D5F1BB601CBDEF8800A270DC /* RYBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBaseTableViewController.m; sourceTree = "<group>"; };
+		D5F1BB621CBDF03600A270DC /* RYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBarController.h; sourceTree = "<group>"; };
+		D5F1BB631CBDF03600A270DC /* RYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBarController.m; sourceTree = "<group>"; };
+		D5F1BB651CBDF06400A270DC /* RYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationController.h; sourceTree = "<group>"; };
+		D5F1BB661CBDF06400A270DC /* RYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationController.m; sourceTree = "<group>"; };
+		D5F1BB6B1CBDF0B800A270DC /* RYArenaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYArenaViewController.h; sourceTree = "<group>"; };
+		D5F1BB6C1CBDF0B800A270DC /* RYArenaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYArenaViewController.m; sourceTree = "<group>"; };
+		D5F1BB711CBDF11100A270DC /* RYDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYDiscoverTableViewController.h; sourceTree = "<group>"; };
+		D5F1BB721CBDF11100A270DC /* RYDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYDiscoverTableViewController.m; sourceTree = "<group>"; };
+		D5F1BB741CBDF12800A270DC /* RYHallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHallTableViewController.h; sourceTree = "<group>"; };
+		D5F1BB751CBDF12800A270DC /* RYHallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHallTableViewController.m; sourceTree = "<group>"; };
+		D5F1BB771CBDF13A00A270DC /* RYHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHistoryTableViewController.h; sourceTree = "<group>"; };
+		D5F1BB781CBDF13A00A270DC /* RYHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHistoryTableViewController.m; sourceTree = "<group>"; };
+		D5F1BB7A1CBE0D2500A270DC /* RYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBar.h; sourceTree = "<group>"; };
+		D5F1BB7B1CBE0D2500A270DC /* RYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBar.m; sourceTree = "<group>"; };
+		D5F1BB7D1CBE267700A270DC /* RYBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBarButton.h; sourceTree = "<group>"; };
+		D5F1BB7E1CBE267700A270DC /* RYBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBarButton.m; sourceTree = "<group>"; };
+		D5F1BB801CBE4D7100A270DC /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		D5F1BB811CBE4D7100A270DC /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		D5F1BB831CBE4EDC00A270DC /* LotteryPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryPrefix.pch; sourceTree = "<group>"; };
+		D5F1BB841CBE5CE500A270DC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		D5F1BB851CBE5CE500A270DC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		D5F2D0C51CBB752B00FBD289 /* 20160411001-RYLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160411001-RYLottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5F2D0C91CBB752B00FBD289 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5F2D0CB1CBB752B00FBD289 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D5F2D0CC1CBB752B00FBD289 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5F2D0CE1CBB752B00FBD289 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5F2D0CF1CBB752B00FBD289 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D5F2D0D21CBB752B00FBD289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5F2D0D41CBB752B00FBD289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5F2D0D71CBB752B00FBD289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5F2D0D91CBB752B00FBD289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5F2D0DE1CBB752B00FBD289 /* 20160411001-RYLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160411001-RYLotteryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F2D0E21CBB752B00FBD289 /* _0160411001_RYLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160411001_RYLotteryTests.m; sourceTree = "<group>"; };
 		D5F2D0E41CBB752B00FBD289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +167,375 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5B907641CC71A1E000A55D0 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				D5B907651CC71A1E000A55D0 /* Controllers */,
+				D5B907661CC71A1E000A55D0 /* Models */,
+				D5B907671CC71A1E000A55D0 /* Views */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		D5B907651CC71A1E000A55D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5B907681CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.h */,
+				D5B907691CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5B907661CC71A1E000A55D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5B907671CC71A1E000A55D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5B9076E1CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.h */,
+				D5B9076F1CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB311CBDEDDB00A270DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB321CBDEDDB00A270DC /* Application */,
+				D5F1BB371CBDEDDB00A270DC /* General */,
+				D5F1BB3C1CBDEDDB00A270DC /* Macro */,
+				D5F1BB3D1CBDEDDB00A270DC /* Resuorces */,
+				D5F1BB401CBDEDDB00A270DC /* Sections */,
+				D5F1BB551CBDEDDB00A270DC /* Utilities */,
+				D5F1BB561CBDEDDB00A270DC /* Vendors */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D5F1BB321CBDEDDB00A270DC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB331CBDEDDB00A270DC /* AppDelegate.h */,
+				D5F1BB341CBDEDDB00A270DC /* AppDelegate.m */,
+				D5F1BB361CBDEDDB00A270DC /* main.m */,
+				D5F1BB5A1CBDEE9D00A270DC /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D5F1BB371CBDEDDB00A270DC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB381CBDEDDB00A270DC /* Categories */,
+				D5F1BB391CBDEDDB00A270DC /* Controllers */,
+				D5F1BB3A1CBDEDDB00A270DC /* Models */,
+				D5F1BB3B1CBDEDDB00A270DC /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		D5F1BB381CBDEDDB00A270DC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB801CBE4D7100A270DC /* UIImage+Utils.h */,
+				D5F1BB811CBE4D7100A270DC /* UIImage+Utils.m */,
+				D5F1BB841CBE5CE500A270DC /* UIView+Frame.h */,
+				D5F1BB851CBE5CE500A270DC /* UIView+Frame.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D5F1BB391CBDEDDB00A270DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB5C1CBDEF5F00A270DC /* RYBaseViewController.h */,
+				D5F1BB5D1CBDEF5F00A270DC /* RYBaseViewController.m */,
+				D5F1BB5F1CBDEF8800A270DC /* RYBaseTableViewController.h */,
+				D5F1BB601CBDEF8800A270DC /* RYBaseTableViewController.m */,
+				D5B9076B1CC72A88000A55D0 /* RYBaseCollectionViewController.h */,
+				D5B9076C1CC72A88000A55D0 /* RYBaseCollectionViewController.m */,
+				D5F1BB621CBDF03600A270DC /* RYTabBarController.h */,
+				D5F1BB631CBDF03600A270DC /* RYTabBarController.m */,
+				D5F1BB651CBDF06400A270DC /* RYNavigationController.h */,
+				D5F1BB661CBDF06400A270DC /* RYNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5F1BB3A1CBDEDDB00A270DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F1BB3B1CBDEDDB00A270DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB7A1CBE0D2500A270DC /* RYTabBar.h */,
+				D5F1BB7B1CBE0D2500A270DC /* RYTabBar.m */,
+				D5F1BB7D1CBE267700A270DC /* RYBarButton.h */,
+				D5F1BB7E1CBE267700A270DC /* RYBarButton.m */,
+				D59D2F821CC5BD0800BD186B /* RYDivideLineView.h */,
+				D59D2F831CC5BD0800BD186B /* RYDivideLineView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB3C1CBDEDDB00A270DC /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB831CBE4EDC00A270DC /* LotteryPrefix.pch */,
+				D5BFFE611CC0E05100D0F986 /* AppMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		D5F1BB3D1CBDEDDB00A270DC /* Resuorces */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB3E1CBDEDDB00A270DC /* Files */,
+				D5F1BB3F1CBDEDDB00A270DC /* Images */,
+			);
+			path = Resuorces;
+			sourceTree = "<group>";
+		};
+		D5F1BB3E1CBDEDDB00A270DC /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D5F1BB3F1CBDEDDB00A270DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D5F1BB401CBDEDDB00A270DC /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				D5B907641CC71A1E000A55D0 /* NewFeature(新特性) */,
+				D5F1BB411CBDEDDB00A270DC /* Arena(竞技场) */,
+				D5F1BB451CBDEDDB00A270DC /* Discover(发现) */,
+				D5F1BB491CBDEDDB00A270DC /* Hall(购彩大厅) */,
+				D5F1BB4D1CBDEDDB00A270DC /* History(开奖信息) */,
+				D5F1BB511CBDEDDB00A270DC /* MyLottery(我的彩票) */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		D5F1BB411CBDEDDB00A270DC /* Arena(竞技场) */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB421CBDEDDB00A270DC /* Controllers */,
+				D5F1BB431CBDEDDB00A270DC /* Models */,
+				D5F1BB441CBDEDDB00A270DC /* Views */,
+			);
+			path = "Arena(竞技场)";
+			sourceTree = "<group>";
+		};
+		D5F1BB421CBDEDDB00A270DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB6B1CBDF0B800A270DC /* RYArenaViewController.h */,
+				D5F1BB6C1CBDF0B800A270DC /* RYArenaViewController.m */,
+				D59D2F8B1CC60DFC00BD186B /* RYArenaNavigationController.h */,
+				D59D2F8C1CC60DFC00BD186B /* RYArenaNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5F1BB431CBDEDDB00A270DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F1BB441CBDEDDB00A270DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB451CBDEDDB00A270DC /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB461CBDEDDB00A270DC /* Controllers */,
+				D5F1BB471CBDEDDB00A270DC /* Models */,
+				D5F1BB481CBDEDDB00A270DC /* Views */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		D5F1BB461CBDEDDB00A270DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB711CBDF11100A270DC /* RYDiscoverTableViewController.h */,
+				D5F1BB721CBDF11100A270DC /* RYDiscoverTableViewController.m */,
+				D59D2F8E1CC61CC200BD186B /* RYDiscoverTableViewController.storyboard */,
+				D59D2F901CC625F000BD186B /* RYGroupBuyTableViewController.h */,
+				D59D2F911CC625F000BD186B /* RYGroupBuyTableViewController.m */,
+				D59D2F9C1CC6369400BD186B /* RYLuckyNumberViewController.h */,
+				D59D2F9D1CC6369400BD186B /* RYLuckyNumberViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5F1BB471CBDEDDB00A270DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F1BB481CBDEDDB00A270DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D59D2F961CC627F500BD186B /* RYTitleButton.h */,
+				D59D2F971CC627F500BD186B /* RYTitleButton.m */,
+				D59D2F991CC6351300BD186B /* RYLuckyNumberView.h */,
+				D59D2F9A1CC6351300BD186B /* RYLuckyNumberView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB491CBDEDDB00A270DC /* Hall(购彩大厅) */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB4A1CBDEDDB00A270DC /* Controllers */,
+				D5F1BB4B1CBDEDDB00A270DC /* Models */,
+				D5F1BB4C1CBDEDDB00A270DC /* Views */,
+			);
+			path = "Hall(购彩大厅)";
+			sourceTree = "<group>";
+		};
+		D5F1BB4A1CBDEDDB00A270DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB741CBDF12800A270DC /* RYHallTableViewController.h */,
+				D5F1BB751CBDF12800A270DC /* RYHallTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5F1BB4B1CBDEDDB00A270DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5196A171CC3CC6800D781E7 /* RYPopMenuItemModel.h */,
+				D5196A181CC3CC6800D781E7 /* RYPopMenuItemModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F1BB4C1CBDEDDB00A270DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5BFFE5E1CC0DF6500D0F986 /* RYCoverView.h */,
+				D5BFFE5F1CC0DF6500D0F986 /* RYCoverView.m */,
+				D5BFFE621CC0E1F800D0F986 /* RYContentView.h */,
+				D5BFFE631CC0E1F800D0F986 /* RYContentView.m */,
+				D5196A141CC3CB9800D781E7 /* RYPopMenuView.h */,
+				D5196A151CC3CB9800D781E7 /* RYPopMenuView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB4D1CBDEDDB00A270DC /* History(开奖信息) */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB4E1CBDEDDB00A270DC /* Controllers */,
+				D5F1BB4F1CBDEDDB00A270DC /* Models */,
+				D5F1BB501CBDEDDB00A270DC /* Views */,
+			);
+			path = "History(开奖信息)";
+			sourceTree = "<group>";
+		};
+		D5F1BB4E1CBDEDDB00A270DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB771CBDF13A00A270DC /* RYHistoryTableViewController.h */,
+				D5F1BB781CBDF13A00A270DC /* RYHistoryTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5F1BB4F1CBDEDDB00A270DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F1BB501CBDEDDB00A270DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB511CBDEDDB00A270DC /* MyLottery(我的彩票) */ = {
+			isa = PBXGroup;
+			children = (
+				D5F1BB521CBDEDDB00A270DC /* Controllers */,
+				D5F1BB531CBDEDDB00A270DC /* Models */,
+				D5F1BB541CBDEDDB00A270DC /* Views */,
+			);
+			path = "MyLottery(我的彩票)";
+			sourceTree = "<group>";
+		};
+		D5F1BB521CBDEDDB00A270DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5A6DAB11CC677B500B99FB4 /* RYMyLotteryViewController.h */,
+				D5A6DAB21CC677B500B99FB4 /* RYMyLotteryViewController.m */,
+				D5A6DAB31CC677B500B99FB4 /* RYMyLotteryViewController.xib */,
+				D59D8F441CC7BF8400E21CAA /* RYSettingTableViewController.h */,
+				D59D8F451CC7BF8400E21CAA /* RYSettingTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5F1BB531CBDEDDB00A270DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5F1BB541CBDEDDB00A270DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F1BB551CBDEDDB00A270DC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D5B907711CC78B8B000A55D0 /* RYSaveDataLocationUtil.h */,
+				D5B907721CC78B8B000A55D0 /* RYSaveDataLocationUtil.m */,
+				D5B907741CC78C8C000A55D0 /* RYChoseViewController.h */,
+				D5B907751CC78C8C000A55D0 /* RYChoseViewController.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D5F1BB561CBDEDDB00A270DC /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
 		D5F2D0BC1CBB752B00FBD289 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +559,7 @@
 		D5F2D0C71CBB752B00FBD289 /* 20160411001-RYLottery */ = {
 			isa = PBXGroup;
 			children = (
-				D5F2D0CB1CBB752B00FBD289 /* AppDelegate.h */,
-				D5F2D0CC1CBB752B00FBD289 /* AppDelegate.m */,
-				D5F2D0CE1CBB752B00FBD289 /* ViewController.h */,
-				D5F2D0CF1CBB752B00FBD289 /* ViewController.m */,
-				D5F2D0D11CBB752B00FBD289 /* Main.storyboard */,
-				D5F2D0D41CBB752B00FBD289 /* Assets.xcassets */,
-				D5F2D0D61CBB752B00FBD289 /* LaunchScreen.storyboard */,
-				D5F2D0D91CBB752B00FBD289 /* Info.plist */,
+				D5F1BB311CBDEDDB00A270DC /* Classes */,
 				D5F2D0C81CBB752B00FBD289 /* Supporting Files */,
 			);
 			path = "20160411001-RYLottery";
@@ -117,7 +568,8 @@
 		D5F2D0C81CBB752B00FBD289 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5F2D0C91CBB752B00FBD289 /* main.m */,
+				D5F2D0D41CBB752B00FBD289 /* Assets.xcassets */,
+				D5F2D0D61CBB752B00FBD289 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +654,7 @@
 		D5F2D0BD1CBB752B00FBD289 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RY;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Rainer;
 				TargetAttributes = {
@@ -243,9 +696,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59D2F8F1CC61CC200BD186B /* RYDiscoverTableViewController.storyboard in Resources */,
 				D5F2D0D81CBB752B00FBD289 /* LaunchScreen.storyboard in Resources */,
+				D5A6DAB51CC677B500B99FB4 /* RYMyLotteryViewController.xib in Resources */,
 				D5F2D0D51CBB752B00FBD289 /* Assets.xcassets in Resources */,
-				D5F2D0D31CBB752B00FBD289 /* Main.storyboard in Resources */,
+				D5F1BB5B1CBDEE9D00A270DC /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +725,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F2D0D01CBB752B00FBD289 /* ViewController.m in Sources */,
-				D5F2D0CD1CBB752B00FBD289 /* AppDelegate.m in Sources */,
-				D5F2D0CA1CBB752B00FBD289 /* main.m in Sources */,
+				D59D8F461CC7BF8400E21CAA /* RYSettingTableViewController.m in Sources */,
+				D5F1BB591CBDEDDB00A270DC /* main.m in Sources */,
+				D5F1BB6D1CBDF0B800A270DC /* RYArenaViewController.m in Sources */,
+				D5F1BB861CBE5CE500A270DC /* UIView+Frame.m in Sources */,
+				D5F1BB821CBE4D7100A270DC /* UIImage+Utils.m in Sources */,
+				D5B907761CC78C8C000A55D0 /* RYChoseViewController.m in Sources */,
+				D5F1BB641CBDF03600A270DC /* RYTabBarController.m in Sources */,
+				D5196A161CC3CB9800D781E7 /* RYPopMenuView.m in Sources */,
+				D5F1BB7C1CBE0D2500A270DC /* RYTabBar.m in Sources */,
+				D5F1BB571CBDEDDB00A270DC /* AppDelegate.m in Sources */,
+				D5F1BB5E1CBDEF5F00A270DC /* RYBaseViewController.m in Sources */,
+				D5F1BB791CBDF13A00A270DC /* RYHistoryTableViewController.m in Sources */,
+				D5BFFE641CC0E1F800D0F986 /* RYContentView.m in Sources */,
+				D5F1BB671CBDF06400A270DC /* RYNavigationController.m in Sources */,
+				D59D2F9B1CC6351300BD186B /* RYLuckyNumberView.m in Sources */,
+				D5F1BB761CBDF12800A270DC /* RYHallTableViewController.m in Sources */,
+				D5F1BB611CBDEF8800A270DC /* RYBaseTableViewController.m in Sources */,
+				D5BFFE601CC0DF6500D0F986 /* RYCoverView.m in Sources */,
+				D59D2F841CC5BD0800BD186B /* RYDivideLineView.m in Sources */,
+				D5B9076D1CC72A88000A55D0 /* RYBaseCollectionViewController.m in Sources */,
+				D59D2F8D1CC60DFC00BD186B /* RYArenaNavigationController.m in Sources */,
+				D5F1BB7F1CBE267700A270DC /* RYBarButton.m in Sources */,
+				D59D2F921CC625F000BD186B /* RYGroupBuyTableViewController.m in Sources */,
+				D5B907731CC78B8B000A55D0 /* RYSaveDataLocationUtil.m in Sources */,
+				D59D2F9E1CC6369400BD186B /* RYLuckyNumberViewController.m in Sources */,
+				D5B9076A1CC71A9E000A55D0 /* RYNewFeatureCollectionViewController.m in Sources */,
+				D5B907701CC752F2000A55D0 /* RYNewFeatureCollectionViewCell.m in Sources */,
+				D5196A191CC3CC6800D781E7 /* RYPopMenuItemModel.m in Sources */,
+				D59D2F981CC627F500BD186B /* RYTitleButton.m in Sources */,
+				D5A6DAB41CC677B500B99FB4 /* RYMyLotteryViewController.m in Sources */,
+				D5F1BB731CBDF11100A270DC /* RYDiscoverTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +791,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D5F2D0D11CBB752B00FBD289 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5F2D0D21CBB752B00FBD289 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D5F2D0D61CBB752B00FBD289 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,7 +888,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "20160411001-RYLottery/Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "20160411001-RYLottery/Classes/Macro/LotteryPrefix.pch";
+				INFOPLIST_FILE = "20160411001-RYLottery/Classes/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160411001-RYLottery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +902,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "20160411001-RYLottery/Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "20160411001-RYLottery/Classes/Macro/LotteryPrefix.pch";
+				INFOPLIST_FILE = "20160411001-RYLottery/Classes/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160411001-RYLottery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +977,7 @@
 				D5F2D0F41CBB752B00FBD289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5F2D0F51CBB752B00FBD289 /* Build configuration list for PBXNativeTarget "20160411001-RYLotteryTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +986,7 @@
 				D5F2D0F71CBB752B00FBD289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5F2D0F81CBB752B00FBD289 /* Build configuration list for PBXNativeTarget "20160411001-RYLotteryUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +995,7 @@
 				D5F2D0FA1CBB752B00FBD289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

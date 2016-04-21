@@ -1,0 +1,27 @@
+//
+//  LotteryPrefix.pch
+//  20160411001-RYLottery
+//
+//  Created by Rainer on 16/4/13.
+//  Copyright © 2016年 Rainer. All rights reserved.
+//
+
+#ifndef LotteryPrefix_pch
+#define LotteryPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import "UIImage+Utils.h"
+#import "UIView+Frame.h"
+
+#import "AppMacro.h"
+
+#endif
+
+
+#endif /* LotteryPrefix_pch */
+
+
