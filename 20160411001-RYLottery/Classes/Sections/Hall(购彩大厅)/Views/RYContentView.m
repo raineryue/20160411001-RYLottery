@@ -28,7 +28,7 @@
 }
 
 + (instancetype)contentViewWithContentImageName:(NSString *)imageName{
-    return [[RYContentView alloc] initContentViewWithContentImageName:imageName];
+    return [[self alloc] initContentViewWithContentImageName:imageName];
 }
 
 - (void)show {

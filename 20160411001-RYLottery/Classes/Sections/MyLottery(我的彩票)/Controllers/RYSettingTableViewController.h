@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Rainer. All rights reserved.
 //
 
-#import "RYBaseTableViewController.h"
+#import "RYBaseSettingTableViewController.h"
 
-@interface RYSettingTableViewController : RYBaseTableViewController
+@interface RYSettingTableViewController : RYBaseSettingTableViewController
 
 @end

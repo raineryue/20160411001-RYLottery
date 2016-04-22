@@ -34,7 +34,7 @@
     CGFloat popMenuViewW = RYScreenWidth;
     CGFloat popMenuVIewH = RYButtonItemWH * rowCount;
     
-    RYPopMenuView *popMenuView = [[RYPopMenuView alloc] initWithFrame:CGRectMake(origin.x, origin.y, popMenuViewW, popMenuVIewH)];
+    RYPopMenuView *popMenuView = [[self alloc] initWithFrame:CGRectMake(origin.x, origin.y, popMenuViewW, popMenuVIewH)];
     
     popMenuView.backgroundColor = [UIColor blackColor];
     popMenuView.popMenuItemArray = popMenuItemArray;

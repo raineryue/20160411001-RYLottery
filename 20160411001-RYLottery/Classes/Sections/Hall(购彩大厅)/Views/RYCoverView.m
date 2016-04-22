@@ -13,7 +13,7 @@
 
 + (void)show {
     // 弹出蒙板
-    RYCoverView *coverView = [[RYCoverView alloc] initWithFrame:RYScreenSize];
+    RYCoverView *coverView = [[RYCoverView alloc] initWithFrame:RYScreenBounds];
     
     coverView.backgroundColor = [UIColor blackColor];
     coverView.alpha = 0.5;
@@ -24,8 +24,8 @@
     RYContentView *contentView = [RYContentView contentViewWithContentImageName:@"xiaopingguo"];
     
     CGFloat contentViewWHh = 200;
-    CGFloat contentViewX = (RYScreenSize.size.width - contentViewWHh) * 0.5;
-    CGFloat contentViewY = (RYScreenSize.size.height - contentViewWHh) * 0.5;
+    CGFloat contentViewX = (RYScreenBounds.size.width - contentViewWHh) * 0.5;
+    CGFloat contentViewY = (RYScreenBounds.size.height - contentViewWHh) * 0.5;
     contentView.frame = CGRectMake(contentViewX, contentViewY, contentViewWHh, contentViewWHh);
     
     contentView.block = ^{

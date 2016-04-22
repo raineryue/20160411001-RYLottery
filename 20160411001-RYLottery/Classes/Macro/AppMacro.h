@@ -11,9 +11,9 @@
 
 #define RYBundleShortVersion @"CFBundleShortVersionString"
 
-#define RYScreenSize [UIScreen mainScreen].bounds
-#define RYScreenWidth RYScreenSize.size.width
-#define RYScreenHeight RYScreenSize.size.height
+#define RYScreenBounds [UIScreen mainScreen].bounds
+#define RYScreenWidth RYScreenBounds.size.width
+#define RYScreenHeight RYScreenBounds.size.height
 
 #define RYKeyWindow [UIApplication sharedApplication].keyWindow
 
