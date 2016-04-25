@@ -21,13 +21,13 @@
 /**
  *  根据表对象创建一个表格行
  */
-+ (instancetype)settingTableViewCellWithTableView:(UITableView *)tableView {
++ (instancetype)settingTableViewCellWithTableView:(UITableView *)tableView tableViewCellStyle:(UITableViewCellStyle)tableViewCellStyle {
     static NSString *tableViewCellIdentifier = @"settingTableViewCellIdentifier";
     
     RYSettingTableViewCell *settingTableViewCell = [tableView dequeueReusableCellWithIdentifier:tableViewCellIdentifier];
     
     if (nil == settingTableViewCell) {
-        settingTableViewCell = [[self alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:tableViewCellIdentifier];
+        settingTableViewCell = [[self alloc] initWithStyle:tableViewCellStyle reuseIdentifier:tableViewCellIdentifier];
     }
     
     return settingTableViewCell;

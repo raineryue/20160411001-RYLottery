@@ -16,6 +16,7 @@
 
 #import "UIImage+Utils.h"
 #import "UIView+Frame.h"
+#import "NSObject+Model.h"
 
 #import "AppMacro.h"
 

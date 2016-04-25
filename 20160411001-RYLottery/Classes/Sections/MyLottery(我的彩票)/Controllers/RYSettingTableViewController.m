@@ -13,6 +13,8 @@
 #import "DRNRealTimeBlurView.h"
 #import "MBProgressHUD+RY.h"
 #import "RYConvertCodeViewController.h"
+#import "RYPushNotificationViewController.h"
+#import "RYQuestionTableViewController.h"
 
 @interface RYSettingTableViewController ()
 
@@ -23,12 +25,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setUpNavigationBarItems];
+    
+    [self setUpData];
+}
+
+- (void)setUpNavigationBarItems {
     self.title = @"设置";
     
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"常见问题" style:UIBarButtonItemStyleBordered target:self action:@selector(questionBarButtonItemClickAction:)];
+}
+
+- (void)setUpData {
     // 设置数据源
     [self setUpGroup1];
     [self setUpGroup2];
     [self setUpGroup3];
+}
+
+- (void)questionBarButtonItemClickAction:(UIBarButtonItem *)questionBarButtonItem {
+    RYQuestionTableViewController *questionTableViewController = [[RYQuestionTableViewController alloc] init];
+    
+    [self.navigationController pushViewController:questionTableViewController animated:YES];
 }
 
 - (void)setUpGroup1 {
@@ -43,6 +61,8 @@
 
 - (void)setUpGroup2 {
     RYArrowSettingItem *settingItem = [RYArrowSettingItem settingItemWithImage:[UIImage imageNamed:@"MorePush"] title:@"推送和提醒"];
+    settingItem.distViewController = [RYPushNotificationViewController class];
+    
     RYSwitchSettingItem *settingItem1 = [RYSwitchSettingItem settingItemWithImage:[UIImage imageNamed:@"more_homeshake"] title:@"使用摇一摇机选"];
     RYSwitchSettingItem *settingItem2 = [RYSwitchSettingItem settingItemWithImage:[UIImage imageNamed:@"sound_Effect"] title:@"声音效果"];
     RYSwitchSettingItem *settingItem3 = [RYSwitchSettingItem settingItemWithImage:[UIImage imageNamed:@"More_LotteryRecommend"] title:@"购彩小助手"];
@@ -55,7 +75,7 @@
 - (void)setUpGroup3 {
     RYArrowSettingItem *settingItem = [RYArrowSettingItem settingItemWithImage:[UIImage imageNamed:@"MoreUpdate"] title:@"检查新版本"];
     
-    settingItem.itemOperation = ^{
+    settingItem.itemOperation = ^(NSIndexPath *indexPath){
         // 创建一个和屏幕同等大小的高莫斯效果视图
         DRNRealTimeBlurView *realTimeBlurView = [[DRNRealTimeBlurView alloc] initWithFrame:RYScreenBounds];
         

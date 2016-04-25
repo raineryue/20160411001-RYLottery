@@ -17,7 +17,7 @@
 /** 子标题 */
 @property (nonatomic, copy) NSString *detailTitle;
 /** 保存行点击操作事件 */
-@property (nonatomic, copy) void(^itemOperation)();
+@property (nonatomic, copy) void(^itemOperation)(NSIndexPath *indexPath);
 
 /**
  *  根据图标和标题快速创建一个属性类对象

@@ -53,9 +53,9 @@
      *  左边按钮为白色箭头图片的方式实现
      *
      ***********************************************************************/
-//    // 4.设置导航栏的主题颜色
-//    [navigationBar setTintColor:[UIColor whiteColor]];
-//    
+    // 4.设置导航栏的主题颜色
+    [navigationBar setTintColor:[UIColor whiteColor]];
+//
 //    // 5.设置导航栏返回按钮只留一个箭头
 //    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -200) forBarMetrics:UIBarMetricsDefault];
 }

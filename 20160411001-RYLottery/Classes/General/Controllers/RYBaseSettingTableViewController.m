@@ -59,7 +59,7 @@
  *  返回每组每行的Cell
  */
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    RYSettingTableViewCell *tableViewCell = [RYSettingTableViewCell settingTableViewCellWithTableView:tableView];
+    RYSettingTableViewCell *tableViewCell = [RYSettingTableViewCell settingTableViewCellWithTableView:tableView tableViewCellStyle:UITableViewCellStyleValue1];
     
     RYSettingItemGroup *settingItemGroup = self.settingArray[indexPath.section];
     
@@ -97,7 +97,7 @@
     
     // 判断是否需要执行操作
     if (settingItem.itemOperation) {
-        settingItem.itemOperation();
+        settingItem.itemOperation(indexPath);
     }
     
     // 判断是否需要执行跳转
@@ -109,6 +109,8 @@
         if (arrowSettingItem.distViewController) {
             // 取出跳转控制器并且创建对象
             UIViewController *viewController = [[arrowSettingItem.distViewController alloc] init];
+            
+            viewController.title = settingItem.title;
             
             // 执行跳转
             [self.navigationController pushViewController:viewController animated:YES];

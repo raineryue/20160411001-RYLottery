@@ -17,7 +17,10 @@
 
 /**
  *  创建一个Cell
+ *  参数:
+ *  tableView:表格
+ *  tableViewCellStyle:表格行样式
  */
-+ (instancetype)settingTableViewCellWithTableView:(UITableView *)tableView;
++ (instancetype)settingTableViewCellWithTableView:(UITableView *)tableView tableViewCellStyle:(UITableViewCellStyle)tableViewCellStyle;
 
 @end
