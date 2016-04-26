@@ -8,6 +8,8 @@
 
 #import "RYQuestionTableViewController.h"
 #import "RYQuestionModel.h"
+#import "RYQuestionDetailViewController.h"
+#import "RYNavigationController.h"
 
 @interface RYQuestionTableViewController ()
 
@@ -17,14 +19,53 @@
 
 @implementation RYQuestionTableViewController
 
+- (instancetype)init {
+    if (self = [super initWithStyle:UITableViewStyleGrouped]) {
+        self.title = @"帮助";
+    }
+    
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.questionArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *tableViewCellIdentifier = @"helpTableViewCellIdentifier";
     
-    self.title = @"帮助";
+    UITableViewCell *tableViewCell = [tableView dequeueReusableCellWithIdentifier:tableViewCellIdentifier];
     
-    [self questionArray];
+    if (nil == tableViewCell) {
+        tableViewCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:tableViewCellIdentifier];
+    }
     
-    NSLog(@"%@", [self questionArray]);
+    RYQuestionModel *questionModel = self.questionArray[indexPath.row];
+    
+    tableViewCell.textLabel.text = questionModel.title;
+    
+    return tableViewCell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    RYQuestionModel *questionModel = self.questionArray[indexPath.row];
+    
+    RYQuestionDetailViewController *questionDetailViewController = [[RYQuestionDetailViewController alloc] init];
+    
+    questionDetailViewController.title = questionModel.title;
+    questionDetailViewController.questionModel = questionModel;
+    
+    RYNavigationController *navigationController = [[RYNavigationController alloc] initWithRootViewController:questionDetailViewController];
+    
+    [self presentViewController:navigationController animated:YES completion:nil];
 }
 
 - (NSMutableArray *)questionArray {

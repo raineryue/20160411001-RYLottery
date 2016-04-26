@@ -79,6 +79,7 @@
 		D5BF6C6E1CCA2884005D7184 /* RYScoreTeleviseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BF6C6D1CCA2884005D7184 /* RYScoreTeleviseViewController.m */; };
 		D5BFFE601CC0DF6500D0F986 /* RYCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFFE5F1CC0DF6500D0F986 /* RYCoverView.m */; };
 		D5BFFE641CC0E1F800D0F986 /* RYContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFFE631CC0E1F800D0F986 /* RYContentView.m */; };
+		D5C1CDD41CCF67D1003099D3 /* RYQuestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C1CDD31CCF67D1003099D3 /* RYQuestionDetailViewController.m */; };
 		D5F1BB571CBDEDDB00A270DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB341CBDEDDB00A270DC /* AppDelegate.m */; };
 		D5F1BB591CBDEDDB00A270DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F1BB361CBDEDDB00A270DC /* main.m */; };
 		D5F1BB5B1CBDEE9D00A270DC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F1BB5A1CBDEE9D00A270DC /* Info.plist */; };
@@ -227,6 +228,8 @@
 		D5BFFE611CC0E05100D0F986 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		D5BFFE621CC0E1F800D0F986 /* RYContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYContentView.h; sourceTree = "<group>"; };
 		D5BFFE631CC0E1F800D0F986 /* RYContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYContentView.m; sourceTree = "<group>"; };
+		D5C1CDD21CCF67D1003099D3 /* RYQuestionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYQuestionDetailViewController.h; sourceTree = "<group>"; };
+		D5C1CDD31CCF67D1003099D3 /* RYQuestionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYQuestionDetailViewController.m; sourceTree = "<group>"; };
 		D5F1BB331CBDEDDB00A270DC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5F1BB341CBDEDDB00A270DC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D5F1BB361CBDEDDB00A270DC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -731,6 +734,8 @@
 				D59D8F451CC7BF8400E21CAA /* RYSettingTableViewController.m */,
 				D50B950C1CCE08E600F229DB /* RYQuestionTableViewController.h */,
 				D50B950D1CCE08E600F229DB /* RYQuestionTableViewController.m */,
+				D5C1CDD21CCF67D1003099D3 /* RYQuestionDetailViewController.h */,
+				D5C1CDD31CCF67D1003099D3 /* RYQuestionDetailViewController.m */,
 				D5BF6C601CCA0FEC005D7184 /* RYConvertCodeViewController.h */,
 				D5BF6C611CCA0FEC005D7184 /* RYConvertCodeViewController.m */,
 				D5BF6C661CCA1EC8005D7184 /* RYPushNotificationViewController.h */,
@@ -1007,6 +1012,7 @@
 				D59D8F461CC7BF8400E21CAA /* RYSettingTableViewController.m in Sources */,
 				D5F1BB591CBDEDDB00A270DC /* main.m in Sources */,
 				D5F1BB6D1CBDF0B800A270DC /* RYArenaViewController.m in Sources */,
+				D5C1CDD41CCF67D1003099D3 /* RYQuestionDetailViewController.m in Sources */,
 				D5F1BB861CBE5CE500A270DC /* UIView+Frame.m in Sources */,
 				D5BF6C461CC9EBCB005D7184 /* RYSettingTableViewCell.m in Sources */,
 				D5F1BB821CBE4D7100A270DC /* UIImage+Utils.m in Sources */,

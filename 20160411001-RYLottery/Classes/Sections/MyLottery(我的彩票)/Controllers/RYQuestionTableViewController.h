@@ -6,8 +6,8 @@
 //  Copyright © 2016年 Rainer. All rights reserved.
 //
 
-#import "RYBaseSettingTableViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface RYQuestionTableViewController : RYBaseSettingTableViewController
+@interface RYQuestionTableViewController : UITableViewController
 
 @end
