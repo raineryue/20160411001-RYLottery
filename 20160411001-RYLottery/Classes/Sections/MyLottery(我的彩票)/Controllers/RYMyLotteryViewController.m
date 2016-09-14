@@ -27,6 +27,10 @@
     [self setUpChildSubviews];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
 /**
  *  设置导航栏信息
  */

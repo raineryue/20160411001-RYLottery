@@ -46,6 +46,20 @@
 }
 
 /**
+ *  自己定义的tabbar在iOS8 中重叠的情况.就是原本已经移除的UITabBarButton再次出现
+ *  在iOS8 是允许动态添加tabbaritem的,这里重新布局时在此做移除操作
+ */
+-(void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    
+    for (UIView *childView in self.tabBar.subviews) {
+        if ([childView isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+            [childView removeFromSuperview];
+        }
+    }
+}
+
+/**
  *  设置所有的子控制器
  */
 - (void)setUpAllChildViewControllers {

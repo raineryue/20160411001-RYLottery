@@ -54,4 +54,8 @@
     return tableViewCell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 @end
